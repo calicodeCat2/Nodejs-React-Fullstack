@@ -81,10 +81,8 @@ module.exports = (app) => {
   });
 };
 
-// https://7ff7660e.ngrok.io/api/surveys/webhooks
-// expires 7:26 4/11/2020
 
-// Before condensing with lodash
+// Webhook route before condensing with lodash
 // app.post('/api/surveys/webhooks', (req, res) => {
 //     const events = _.map(req.body, ({ email, url}) => {
 //         const pathname = new URL(url).pathname;
